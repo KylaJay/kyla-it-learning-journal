@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Kyla Jones IT Learning Journal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <h1>Kyla Jones IT Learning Journal</h1>
+
+        <nav aria-label="Main Navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills &amp; Certifications</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Contact Me</h2>
+
+            <p>
+                Have a question or want to connect?
+                Fill out the form below.
+            </p>
+
+            <form class="contact-form" action="#" method="get">
+
+                <div class="form-group">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full_name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" aria-describedby="email-hint" required>
+                    <p id="email-hint" class="hint">
+                        Enter a valid email address so I can reply.
+                    </p>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        title="Use the format 904-555-1234" aria-describedby="phone-hint">
+                    <p id="phone-hint" class="hint">
+                        Optional. Format: 904-555-1234
+                    </p>
+                </div>
+
+                <div class="form-group">
+                    <label for="topic">Reason for Contact:</label>
+                    <select id="topic" name="topic" required>
+                        <option value="">Choose a topic</option>
+                        <option value="networking">Networking</option>
+                        <option value="internship">Internship Opportunity</option>
+                        <option value="project">Project Question</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <fieldset>
+                    <legend>Preferred Contact Method:</legend>
+
+                    <label for="contact-email">
+                        <input type="radio" id="contact-email" name="contact_method" value="email" required>
+                        Email
+                    </label>
+
+                    <label for="contact-phone">
+                        <input type="radio" id="contact-phone" name="contact_method" value="phone">
+                        Phone
+                    </label>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+                <p class="hint">
+                    This form is a preview. Messages are not
+                    being sent yet.
+                </p>
+
+            </form>
+        </section>
+
+        <section class="contact-details">
+            <h2>Other Ways to Contact Me</h2>
+            <p>
+                I welcome questions about my IT projects,
+                networking, and internship opportunities.
+            </p>
+            <p>
+                You can also connect with me through
+                my professional contact information.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Kyla Jones. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
