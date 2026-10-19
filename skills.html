@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Me | Kyla Jones IT Learning Journal</title>
+    <title>Skills &amp; Certifications | Kyla Jones IT Learning Journal</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-
 <body>
 
-    <header>
+    <header class="site-header">
         <h1>Kyla Jones IT Learning Journal</h1>
 
         <nav aria-label="Main Navigation">
-            <ul>
+            <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="skills.html">Skills &amp; Certifications</a></li>
+                <li>
+                    <a href="skills.html" aria-current="page">
+                        Skills &amp; Certifications
+                    </a>
+                </li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -28,17 +30,48 @@
 
     <main>
 
+        <section class="welcome">
+            <h2>My Skills &amp; Certifications</h2>
+            <p>
+                As an Information Technology student,
+                I am building technical skills through
+                my classes, projects, and work experience.
+            </p>
+        </section>
+
         <section>
             <h2>Technical Skills</h2>
 
-            <ul>
-                <li>Cybersecurity</li>
-                <li>Networking</li>
-                <li>Linux</li>
-                <li>SQL and Databases</li>
-                <li>HTML and Web Development</li>
-                <li>Technical Support</li>
-            </ul>
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <h3>Cybersecurity</h3>
+                    <p>
+                        Learning how to protect computer
+                        systems, identify security risks,
+                        and understand information security.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Networking &amp; Linux</h3>
+                    <p>
+                        Experience practicing Linux commands,
+                        networking concepts, Nmap, and
+                        troubleshooting network problems.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Programming &amp; Databases</h3>
+                    <p>
+                        Experience using HTML, CSS, PHP,
+                        and SQL to create websites and
+                        work with databases.
+                    </p>
+                </article>
+
+            </div>
         </section>
 
         <section>
@@ -49,24 +82,59 @@
                 <li>SQL Server Management Studio</li>
                 <li>Wireshark</li>
                 <li>Nmap</li>
-                <li>Windows</li>
+                <li>Windows 11</li>
                 <li>Linux</li>
+                <li>NetBeans</li>
             </ul>
         </section>
 
         <section>
-            <h2>Certifications and Professional Development</h2>
+            <h2>Professional Experience</h2>
+
+            <article class="project-card">
+                <h3>IT Support Experience</h3>
+
+                <p>
+                    Through my IT support experience,
+                    I have practiced helping users solve
+                    computer problems and understand
+                    technology.
+                </p>
+
+                <p>
+                    My experience includes troubleshooting
+                    Windows computers, assisting customers,
+                    and identifying technical issues.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Certifications &amp; Professional Development</h2>
 
             <p>
-                This section will include certifications and professional development
-                that I complete as I continue learning Information Technology and cybersecurity.
+                I continue to improve my knowledge
+                through training, technology courses,
+                and professional development.
+            </p>
+
+            <ul>
+                <li>CPR Certification</li>
+                <li>Cybersecurity and IT coursework</li>
+                <li>Women in CyberSecurity (WiCyS) leadership</li>
+                <li>STEM and FinTech student activities</li>
+            </ul>
+
+            <p>
+                I plan to continue earning professional
+                certifications as I grow in the IT field.
             </p>
         </section>
 
     </main>
 
-    <footer>
-        <p>&copy; 2026 Kyla Jones</p>
+    <footer class="site-footer">
+        <p>&copy; 2026 Kyla Jones. All rights reserved.</p>
     </footer>
 
 </body>
