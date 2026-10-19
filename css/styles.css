@@ -266,3 +266,20 @@ fieldset label {
     background-color: var(--light-pink);
     border-radius: 10px;
 }
+
+
+/* About Me Image */
+.profile-image {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px auto;
+    border: 3px solid var(--light-pink);
+    border-radius: 15px;
+}
+
+/* About Me Section */
+.about-photo-section {
+    text-align: center;
+}

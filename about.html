@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,16 +8,19 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-
 <body>
 
-    <header>
+    <header class="site-header">
         <h1>Kyla Jones IT Learning Journal</h1>
 
         <nav aria-label="Main Navigation">
-            <ul>
+            <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
+                <li>
+                    <a href="about.html" aria-current="page">
+                        About Me
+                    </a>
+                </li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="skills.html">Skills &amp; Certifications</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -28,40 +30,70 @@
 
     <main>
 
-        <section>
+        <section class="welcome">
             <h2>About Me</h2>
 
             <p>
-                My name is Kyla Jones, and I am currently studying Information Technology.
-                I created this IT Learning Journal to show my experience, skills, projects,
-                and what I have learned throughout my courses.
+                Hi! My name is Kyla Jones. I am an
+                Information Technology student at Florida
+                State College at Jacksonville.
             </p>
+
+            <p>
+                I created this IT Learning Journal to
+                share my projects, technical skills, and
+                what I have learned throughout my courses.
+            </p>
+        </section>
+
+        <section class="about-photo-section">
+            <h2>A Little About Me</h2>
+
+            <img class="profile-image" src="images/profile.jpg" alt="Portrait of Kyla Jones" width="600" height="600">
+
+            <p>
+                I am a United States Navy veteran, and
+                my experience in the military helped me
+                develop teamwork, leadership, and
+                problem-solving skills.
+            </p>
+
         </section>
 
         <section>
             <h2>My Interests</h2>
 
             <p>
-                I am interested in cybersecurity, networking, databases, and web development.
-                I enjoy learning new technology and gaining hands-on experience through
-                class assignments and technical projects.
+                I am interested in cybersecurity,
+                networking, databases, and web development.
+            </p>
+
+            <p>
+                I enjoy learning new technology and
+                gaining hands-on experience through
+                school assignments and technical projects.
             </p>
         </section>
 
         <section>
-            <h2>My Goals</h2>
+            <h2>My Career Goals</h2>
 
             <p>
-                My goal is to continue building my technical skills and gain more experience
-                in the Information Technology field. I also want to use this website to show
-                my growth and the knowledge I have gained while in school.
+                My goal is to build a successful career
+                in cybersecurity and information technology.
+            </p>
+
+            <p>
+                I want to continue improving my skills,
+                earn professional certifications, and
+                gain experience through internships.
             </p>
         </section>
 
     </main>
 
-    <footer>
-        <p>&copy; 2026 Kyla Jones</p>
+    <footer class="site-footer">
+        <p>&copy; 2026 Kyla Jones. All rights reserved.</p>
     </footer>
 
 </body>
