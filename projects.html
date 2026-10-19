@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Me | Kyla Jones IT Learning Journal</title>
+    <title>Projects | Kyla Jones IT Learning Journal</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-
 <body>
 
-    <header>
+    <header class="site-header">
         <h1>Kyla Jones IT Learning Journal</h1>
 
         <nav aria-label="Main Navigation">
-            <ul>
+            <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li>
+                    <a href="projects.html" aria-current="page">Projects</a>
+                </li>
                 <li><a href="skills.html">Skills &amp; Certifications</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -28,46 +28,101 @@
 
     <main>
 
-        <section>
-            <h2>My Projects</h2>
+        <section class="welcome">
+            <h2>My IT Projects</h2>
 
             <p>
-                This page will show some of the projects I have completed
-                while studying Information Technology.
+                Welcome to my projects page! Here, I share
+                some of the assignments and projects I have
+                completed while studying Information Technology.
+            </p>
+
+            <p>
+                These projects have helped me practice
+                problem-solving, coding, database management,
+                and cybersecurity skills.
             </p>
         </section>
 
         <section>
-            <h2>SQL and Database Projects</h2>
+            <h2>Featured Projects</h2>
 
-            <p>
-                This section will include projects where I used SQL and databases
-                to create tables, write queries, and work with data.
-            </p>
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <h3>SQL Database Design</h3>
+
+                    <p>
+                        In my database course, I created
+                        tables and worked with SQL queries
+                        to organize and manage information.
+                    </p>
+
+                    <p>
+                        I practiced using primary keys,
+                        foreign keys, and relationships
+                        between tables.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Web Development Portfolio</h3>
+
+                    <p>
+                        I created this IT Learning Journal
+                        using HTML and CSS.
+                    </p>
+
+                    <p>
+                        I learned how to organize webpages,
+                        create navigation links, and make
+                        websites easier to use on different
+                        screen sizes.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Networking and Cybersecurity</h3>
+
+                    <p>
+                        In my technology courses, I have
+                        practiced networking concepts,
+                        Linux commands, and basic
+                        information security skills.
+                    </p>
+
+                    <p>
+                        These assignments helped me
+                        understand how computer networks
+                        work and why protecting information
+                        is important.
+                    </p>
+                </article>
+
+            </div>
         </section>
 
         <section>
-            <h2>Web Design Projects</h2>
+            <h2>What I Learned</h2>
 
             <p>
-                This section will include websites and HTML assignments I have
-                completed while learning web design and development.
+                Each project has helped me become more
+                confident with technology. I have learned
+                how to solve problems, pay attention
+                to details, and practice new skills.
             </p>
-        </section>
-
-        <section>
-            <h2>Networking and Cybersecurity Projects</h2>
 
             <p>
-                This section will include projects related to networking,
-                Linux, cybersecurity, and other technology courses.
+                I plan to continue building my portfolio
+                as I complete more projects and gain
+                experience in the IT field.
             </p>
         </section>
 
     </main>
 
-    <footer>
-        <p>&copy; 2026 Kyla Jones</p>
+    <footer class="site-footer">
+        <p>&copy; 2026 Kyla Jones. All rights reserved.</p>
     </footer>
 
 </body>
