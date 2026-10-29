@@ -283,3 +283,8 @@ fieldset label {
 .about-photo-section {
     text-align: center;
 }
+
+/* Hide projects until button is clicked */
+.project-grid[hidden] {
+    display: none;
+}
