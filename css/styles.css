@@ -288,3 +288,15 @@ fieldset label {
 .project-grid[hidden] {
     display: none;
 }
+
+.site-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.67em 0;
+}
+
+.welcome h1,
+.contact-section h1 {
+    color: var(--primary);
+    font-size: 1.6rem;
+}

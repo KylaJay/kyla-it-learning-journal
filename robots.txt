@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://kylajay.github.io/kyla-it-learning-journal/sitemap.xml
